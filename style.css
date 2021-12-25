@@ -12,6 +12,32 @@
         box-shadow: 5px 5px 5px black;
         margin-bottom: 15px;
     }
+
+    .hubungi {
+
+        width :100%;
+        height:40vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .hubungi-1 {
+    
+        height: 90%;
+        width: 45%;
+        margin: auto;
+    }
+    
+    .hubungi-2 {
+        height: 90%;
+        width: 45%;
+        margin:auto;
+    }
+
+    .logo-bawah-pict {
+        width:120px;
+        background-color: rgb(0,0,0,0.7);
+    }
 }
 
 @media only screen and (max-width:600px){
@@ -31,6 +57,33 @@
         box-shadow: 5px 5px 5px black;
         margin-bottom : 10px;
     }
+
+    .hubungi {
+        width :100%;
+        height:40vh;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .hubungi-1 {
+
+        height: 90%;
+        width: 25%;
+        margin-left:0;
+        margin-right:10px;
+    }
+    
+    .hubungi-2 {
+        height: 90%;
+        width: 60%;
+        margin:auto;
+    }
+    
+    .logo-bawah-pict {
+        width:100px;
+        background-color: rgb(0,0,0,0.7);
+    }
+
 }
 
 @media only screen and (min-width:1000px){
@@ -49,6 +102,31 @@
         margin-bottom: 15px;
     }
 
+    .hubungi {
+
+        width :100%;
+        height:40vh;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .hubungi-1 {
+    
+        height: 90%;
+        width: 45%;
+        margin: auto;
+    }
+    
+    .hubungi-2 {
+        height: 90%;
+        width: 45%;
+        margin:auto;
+    }
+
+    .logo-bawah-pict {
+        width:120px;
+        background-color: rgb(0,0,0,0.7);
+    }
 
 }
 
@@ -59,7 +137,7 @@ body {
 
 li {
     list-style : none;
-    padding-left : 15px;
+    padding-right: 20px;
 }
 
 .logo {
@@ -74,12 +152,13 @@ ul {
     display: flex;
     font-size: 15px;
     text-shadow : 0.2px 0.2px 0.2px black;
+    justify-content: space-between;
 }
 
 .head {
     width: 100%;
     height: 50vh;
-    justify-content: space-evenly;
+    justify-content: center;
     background-image: url(https://cdn.onekindesign.com/wp-content/uploads/2020/03/Modern-Farmhouse-Style-Home-Think-Architecture-02-1-Kindesign.jpg);
     background-size: cover;
     margin-top:0;
@@ -211,35 +290,11 @@ svg {
     text-align: center;
 }
 
-.hubungi {
-
-    width :100%;
-    height:40vh;
-    display: flex;
-    justify-content: space-around;
-}
-
-.hubungi-1 {
-
-    height: 90%;
-    width: 45%;
-    margin: auto;
-}
-
-.hubungi-2 {
-    height: 90%;
-    width: 45%;
-    margin:auto;
-}
 
 .logo-bawah {
     text-align: right;
 }
 
-.logo-bawah-pict {
-    width:120px;
-    background-color: rgb(0,0,0,0.7);
-}
 
 hr {
     margin-top: auto;
@@ -255,6 +310,10 @@ hr {
 
 .soc-icon {
     width:20px
+}
+
+.soc-icon-desc {
+    font-size: 18px;
 }
 
 .pages-link {
@@ -282,7 +341,6 @@ hr {
 }
 
 .back-to-home:hover {
-    background-color: rgb(100,100,100,0.8);
     width:auto;
     position: fixed;
     bottom: 0;
@@ -292,8 +350,8 @@ hr {
     flex-direction: column;
     margin-bottom:10px;
     margin-right:5px;
-    transform: rotate(180deg);
-    transition: transform .7s ease-in-out;
+    background-color:rgb(0,0,0);
+    transition: .7s ease-in-out;
 }
 
 .back-icon1 {
